@@ -11,9 +11,9 @@ node_modules
 dist
 dist-ssr
 *.local
-.storybook
-storybook-static
-coverage
+/.storybook
+/storybook-static
+/coverage
 
 # Editor directories and files
 .vscode/*
