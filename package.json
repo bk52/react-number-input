@@ -1,4 +1,5 @@
 {
+  "homepage": "http://bk52.github.io/react-number-input",
   "name": "react-number-input",
   "private": true,
   "version": "0.0.0",
@@ -11,6 +12,8 @@
     "test": "jest --silent=false --watchAll",
     "coverage": "jest --silent=false --watchAll --coverage",
     "storybook": "storybook dev -p 6006",
+    "predeploy": "npm run build-storybook",
+    "deploy-storybook": "gh-pages -d storybook-static",
     "build-storybook": "storybook build"
   },
   "dependencies": {
